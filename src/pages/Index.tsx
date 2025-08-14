@@ -89,9 +89,11 @@ export default function Index() {
               </div>
             </div>
             <nav className="hidden md:flex space-x-8">
-              <a href="#catalog" className="text-medium-gray hover:text-professional-blue transition-colors">Каталог</a>
-              <a href="#solutions" className="text-medium-gray hover:text-professional-blue transition-colors">Решения</a>
-              <a href="#contact" className="text-medium-gray hover:text-professional-blue transition-colors">Контакты</a>
+              <a href="/catalog" className="text-medium-gray hover:text-professional-blue transition-colors">Каталог</a>
+              <a href="/solutions" className="text-medium-gray hover:text-professional-blue transition-colors">Решения</a>
+              <a href="/services" className="text-medium-gray hover:text-professional-blue transition-colors">Услуги</a>
+              <a href="/about" className="text-medium-gray hover:text-professional-blue transition-colors">О нас</a>
+              <a href="/contact" className="text-medium-gray hover:text-professional-blue transition-colors">Контакты</a>
             </nav>
             <Button className="bg-professional-blue hover:bg-blue-700">
               <Icon name="Phone" className="h-4 w-4 mr-2" />
